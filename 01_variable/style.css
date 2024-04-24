@@ -1,0 +1,22 @@
+body{
+
+    background-color: black;
+}
+
+.container{
+  
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.p1, .p2, .p3{
+
+    margin: auto;
+}
