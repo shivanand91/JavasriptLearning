@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: black;
+    color: white;
+
+}
+
+.container{
+
+    height: 380px;
+    width: 400px;
+    display: flex;
+    padding: 10px;
+    margin: 2rem auto;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.container input, button{
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    margin: 5px;
+    
+}
+
+#result{
+
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
