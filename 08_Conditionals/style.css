@@ -1,0 +1,50 @@
+body{
+
+    color: white;
+    background-color: black;
+}
+
+.container{
+
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 2rem auto;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+
+.container button{
+    height: 40px;
+    width: 100px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: royalblue;
+    border: 2px solid yellow;
+    border-radius: 8px;
+}
+
+.container input{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(11, 24, 62);
+    border: 2px solid yellow;
+    border-radius: 8px;
+}
+
+
+.container button:hover{
+
+    color: royalblue;
+    background-color: yellow;
+    border: 2px solid royalblue;
+
+}
