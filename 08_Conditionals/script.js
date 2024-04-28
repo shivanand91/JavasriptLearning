@@ -1,37 +1,31 @@
-// age = parseInt(document.querySelector(".age").value);
-// reslut = document.querySelector(".result");
-// showResult = document.querySelector(".showResult");
+const myText = document.querySelector(".age");
+const reslut = document.querySelector(".result");
+const showResult = document.querySelector(".showResult");
 
-// let resultSction;
-
-// if (age < 18) {
-//     resultSction = `You are an adult`;
-// } else {
-//   resultSction = `you are a child`;
-// }
-
-// reslut.onclick = function () {
-//   showResult.textContent = resultSction;
-// };
+let age;
 
 
-age = parseInt(document.querySelector(".age").value);
-result = document.querySelector(".result");
-showResult = document.querySelector(".showResult");
+reslut.onclick = function () {
 
-let resultSection; // Corrected typo (Section -> Section)
 
-if (age < 18) {
-  resultSection = "You are a minor";
-} else {
-  resultSection = "You are an adult";
-}
+  age = myText.value;
+  age = Number(age);
+  
+  if (age >= 100) {
+      resultSction = `You are too old.`;
+  } 
+  else if(age == 0){
+    resultSction = `you just born.`;
+  }
+  else if(age >= 18){
+    resultSction = `You are ${age}+ (adult).`;
+  }
+  else if(age < 0){
+    resultSction = `${age} is invalid age.`
+  }
+  else{
+   resultSction = `please enter age.`
+  }
 
-// Check if elements exist before using them
-if (result && showResult) {
-  result.onclick = function() {
-    showResult.textContent = resultSection;
-  };
-} else {
-  console.error("Error: Required elements not found!");
-}
+  showResult.textContent = resultSction;
+};
