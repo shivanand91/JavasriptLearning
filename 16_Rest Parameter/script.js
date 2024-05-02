@@ -34,7 +34,27 @@ function sum(...numbers){
     return result;
 }
 
+function getAvegare(...numbers){
+    let result = 0;
+
+    for (let number of numbers) {
+        result += number / numbers.length;        
+    }
+
+    return result;
+}
+
+function combineStrings(...strings){
+    return strings.join(" ");
+}
+
+const fullName = combineStrings("Shivanand", "Kumar");
+
+console.log(fullName);
 
 total = sum(1, 2, 3, 4, 5);
+avgTotal = getAvegare(1, 2, 3, 4, 5);
+
 
 console.log(`total sum of array is ${total}`);
+console.log(`total average of array is ${avgTotal}`);

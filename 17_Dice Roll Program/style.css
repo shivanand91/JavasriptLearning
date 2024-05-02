@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    height: 300px;
+    width: 300px;
+    margin: 3rem auto;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0.1px 0.1px 15px 0.1px #f8f7f7;
+}
+
+.container h1{
+
+    font-size: 3rem;
+}
+
+.container label{
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.container input{
+
+    height: 40px;
+    width: 220px;
+    border: none;
+    color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(236, 183, 104);
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.container button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #000000;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(236, 183, 104);
+}
+
+.container button:hover{
+    
+    color: #e9f547;
+    border: 2px solid rgb(245, 171, 112);
+    background-color: rgb(9, 5, 0);
+}
+
+#diceImage{
+
+    width: 300px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#diceImage img{
+
+    height: 60px;
+}
