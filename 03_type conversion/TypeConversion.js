@@ -14,3 +14,8 @@ let c = true
 console.log(typeof a);
 console.log(typeof b);
 console.log(typeof c);
+
+
+const inputValue = document.getElementById("inputValue");
+const myResult = document.getElementById("mySubmit");
+const myResult = document.getElementById("inputValue");
