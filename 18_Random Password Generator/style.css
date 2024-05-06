@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+
+    margin-bottom: 2rem;
+}
+.container{
+
+    height: 400px;
+    width: 400px;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#genPass{
+
+    height: 40px;
+    width: 250px;
+    border: 2px solid rgb(11, 41, 2);
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: #fff;
+    background-color: royalblue;
+}
+
+#genPass:hover{
+
+
+    border: 2px solid royalblue;
+    background-color: rgb(11, 41, 2);
+}
+.container label, input{
+
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+#result{
+
+    color: green;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+}
