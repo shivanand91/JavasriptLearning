@@ -69,7 +69,6 @@ const sum = document.getElementById("sum");
  //<----------------------------------------------------------------------->
 
  sumOfTwo(Display, 5, 6);
- Hello(Display);
 
  function sumOfTwo(callbacks, x, y){
 
@@ -80,5 +79,14 @@ const sum = document.getElementById("sum");
  function Display(result){
     sum.textContent = `sum of two number is: ${result}`;
  }
-            
-            
+      
+ function mulOfTwo(callbacks, x, y){
+   let result = x * y;
+   callbacks(result);
+ }
+
+ function DisplayMul(result){
+   Goodbye.textContent = `Multiplication of two number is ${result}`;
+ }
+ 
+ mulOfTwo(DisplayMul, 5, 6);
